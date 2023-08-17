@@ -93,7 +93,7 @@ export default function Home() {
             id="ipaddress"
             name="ipaddress"
             placeholder="Search for any IP address or domain"
-            className="w-full h-14 p-5 text-sm rounded-l-lg focus:outline-none"
+            className="w-full h-14 p-5 text-sm rounded-l-lg focus:outline-none lg:text-base"
             onChange={(e) => setIpAddress(e.target.value)}
             required
           />
